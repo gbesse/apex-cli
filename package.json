@@ -1,5 +1,5 @@
 {
-  "name": "@apex-dev/cli",
+  "name": "@apex/cli",
   "version": "1.0.0",
   "description": "APEX CLI - Command line interface for APEX intelligence platform",
   "type": "module",

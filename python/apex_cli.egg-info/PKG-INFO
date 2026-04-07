@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: apex-cli
+Version: 1.0.0
+Summary: APEX CLI - Command line interface for APEX intelligence platform
+Author-email: APEX Team <team@apex.dev>
+License: MIT
+Project-URL: Homepage, https://github.com/apex-dev/cli
+Project-URL: Repository, https://github.com/apex-dev/cli.git
+Project-URL: Documentation, https://apex.dev/docs
+Keywords: apex,cli,intelligence,monitoring,regulatory
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: python-dateutil>=2.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
