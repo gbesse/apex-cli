@@ -390,6 +390,21 @@ sourcesCmd
   });
 
 // Config commands
+program.command('doctor')
+  .description('Check local configuration without contacting APEX / Vérifier la configuration locale sans réseau / Comprobar la configuración local sin red')
+  .action(() => {
+    const baseUrl = getBaseUrl();
+    let validUrl = false;
+    try {
+      const parsed = new URL(baseUrl);
+      validUrl = ['http:', 'https:'].includes(parsed.protocol);
+    } catch { /* Report an invalid URL without echoing its contents. */ }
+    const keyPresent = Boolean(getApiKey());
+    console.log(`API key / Clé API / Clave API: ${keyPresent ? 'present / présente / presente' : 'missing / absente / ausente'}`);
+    console.log(`Base URL / URL de base / URL base: ${validUrl ? 'valid / valide / válida' : 'invalid / invalide / inválida'}`);
+    if (!keyPresent || !validUrl) process.exitCode = 2;
+  });
+
 const configCmd = program.command('config')
   .description('Manage configuration');
 
@@ -488,6 +503,6 @@ authCmd
 program
   .name('apex')
   .description('APEX CLI - Intelligence platform command line interface')
-  .version('1.0.0');
+  .version('1.0.1');
 
 program.parse(process.argv);

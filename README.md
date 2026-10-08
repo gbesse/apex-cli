@@ -452,3 +452,11 @@ Contributions are welcome! Please read our contributing guidelines before submit
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## October 2026 improvement · Amélioration d’octobre 2026 · Mejora de octubre de 2026
+
+Run `apex doctor` to check whether a key is configured and the base URL is valid, without an API request or revealing the key.
+
+Exécutez `apex doctor` pour vérifier la présence d’une clé et la validité de l’URL de base, sans requête API ni affichage de la clé.
+
+Ejecute `apex doctor` para comprobar si hay una clave configurada y si la URL base es válida, sin solicitud API ni revelar la clave.
