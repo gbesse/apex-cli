@@ -455,8 +455,8 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 ## October 2026 improvement · Amélioration d’octobre 2026 · Mejora de octubre de 2026
 
-Run `apex doctor` to check whether a key is configured and the base URL is valid, without an API request or revealing the key.
+Run `apex doctor` to check whether a key is configured and the base URL is valid, without an API request or revealing the key. The runtime dependency lockfile is refreshed; `npm audit --omit=dev` reports no known advisories at this revision.
 
-Exécutez `apex doctor` pour vérifier la présence d’une clé et la validité de l’URL de base, sans requête API ni affichage de la clé.
+Exécutez `apex doctor` pour vérifier la présence d’une clé et la validité de l’URL de base, sans requête API ni affichage de la clé. Le verrou des dépendances d’exécution est actualisé ; `npm audit --omit=dev` ne signale aucun avis connu à cette révision.
 
-Ejecute `apex doctor` para comprobar si hay una clave configurada y si la URL base es válida, sin solicitud API ni revelar la clave.
+Ejecute `apex doctor` para comprobar si hay una clave configurada y si la URL base es válida, sin solicitud API ni revelar la clave. Se actualiza el archivo de bloqueo de dependencias de ejecución; `npm audit --omit=dev` no informa de avisos conocidos en esta revisión.
