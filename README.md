@@ -460,3 +460,7 @@ Run `apex doctor` to check whether a key is configured and the base URL is valid
 Exécutez `apex doctor` pour vérifier la présence d’une clé et la validité de l’URL de base, sans requête API ni affichage de la clé. Le verrou des dépendances d’exécution est actualisé ; `npm audit --omit=dev` ne signale aucun avis connu à cette révision.
 
 Ejecute `apex doctor` para comprobar si hay una clave configurada y si la URL base es válida, sin solicitud API ni revelar la clave. Se actualiza el archivo de bloqueo de dependencias de ejecución; `npm audit --omit=dev` no informa de avisos conocidos en esta revisión.
+
+## Contrôle d’adoption · Adoption check · Comprobación de adopción
+
+[Français : essayer un cas concret](examples/adoption-check.md) · [English: try a concrete case](examples/adoption-check.md) · [Español: pruebe un caso concreto](examples/adoption-check.md).
