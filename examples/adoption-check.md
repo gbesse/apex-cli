@@ -43,3 +43,15 @@ FR : adaptez une copie de la fixture locale à cette situation, puis vérifiez l
 EN: adapt a copy of the local fixture to this situation, then check the behavior described above. Values are illustrative, not measured Jev output.
 
 ES: adapte una copia de la fixture local a esta situación y compruebe el comportamiento descrito arriba. Los valores son ilustrativos, no resultados Jev medidos.
+
+## Second cas · Second case · Segundo caso
+
+```text
+APEX_BASE_URL=https://api.example.invalid; APEX_API_KEY=unset
+```
+
+**FR :** Avec une URL syntaxiquement valide mais sans clé, `doctor` doit signaler la clé absente sans tenter de recherche ni révéler une valeur sensible.
+
+**EN:** With a syntactically valid URL but no key, `doctor` should report the missing key without searching or revealing a sensitive value.
+
+**ES:** Con una URL sintácticamente válida pero sin clave, `doctor` debe informar de la clave ausente sin buscar ni revelar un valor sensible.
